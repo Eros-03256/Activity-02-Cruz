@@ -47,8 +47,8 @@ elif opt ==1:
 other = 1
 
 modifier = target * weather * badge * crit * randomm * stab * type * burn * other
-damage =round(((((((290)/5)+2) 110 (205/188))/50)+2),2) 
-fdamage= damage* modifier
+damage = round (((290)/5)+2)(110*(205/188)/50+2,2)
+fdamage= damage * modifier
 
 print(f"""
 MODIFIERS:
